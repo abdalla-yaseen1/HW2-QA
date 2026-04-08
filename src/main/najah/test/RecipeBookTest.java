@@ -62,7 +62,6 @@ public class RecipeBookTest {
 
 
    
-    // ✅ Invalid Index
     @Test
     @DisplayName("Invalid Index Should Throw Exception")
     void testInvalidIndex() {
@@ -71,7 +70,6 @@ public class RecipeBookTest {
         });
     }
 
-    // ✅ Edit Recipe
     @Test
     @DisplayName("Edit Recipe Successfully")
     void testEditRecipe() {
