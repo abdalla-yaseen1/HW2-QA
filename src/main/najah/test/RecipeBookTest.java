@@ -57,7 +57,7 @@ public class RecipeBookTest {
         String deletedName = book.deleteRecipe(0);
 
         assertEquals("Coffee", deletedName);
-        assertNotNull(book.getRecipes()[0]); // صار Recipe جديد
+        assertNotNull(book.getRecipes()[0]); 
     }
 
 
@@ -81,7 +81,7 @@ public class RecipeBookTest {
         String oldName = book.editRecipe(0, newRecipe);
 
         assertEquals("Coffee", oldName);
-        assertEquals("", book.getRecipes()[0].getName()); // حسب الكود
+        assertEquals("", book.getRecipes()[0].getName());
     }
 
 }
