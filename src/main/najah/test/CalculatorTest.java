@@ -108,6 +108,6 @@ public class CalculatorTest {
     @Disabled("@Disabled adding test")
     @Test
     void failingTest() {
-        assertEquals(10, calc.add(2,3)); // غلط
+        assertEquals(10, calc.add(2,3)); 
     }
 }
